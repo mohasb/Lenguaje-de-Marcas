@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comparativa PS5 vs Xboxseries X">
+    <meta name="keywords" content="PS5, Xbox series X, nintendo" />
+    <meta name="author" content="Muhammad Hicho Abdeselam" />
+    <meta name="copyright" content="Muhammad Hicho Abdeselam" />
+    <link rel="stylesheet" href="../style.css">
+    <script src="../JavaScript/validacion.js" defer></script>
+    <script src="../JavaScript/index.js" defer></script>
+    <script src="../JavaScript/environment.js" defer></script>
+    <script src="../JavaScript/nav.js" defer></script>
+    <title>&#127918; Todoconsolas/Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Contacto
+        </h1>
+        <a title="icono_todoconsolas" href="../Portada.html"><img class="icono_todoconsolas" src="../Imagenes/icono_header.jpg" alt="icono_todoconsolas"></a>
+        <a title="icono_todoconsolas2" href="../Portada.html"><img class="icono_todoconsolas2" src="../Imagenes/icono_header.jpg" alt="icono_todoconsolas"></a>
+    </header>
+
+    <nav id="navegador">
+        <a href="#" id="botonNav">
+            <span class="barra" id="barra1"></span>
+            <span class="barra" id="barra2"></span>
+            <span class="barra" id="barra3"></span>
+        </a>
+        <ul class="nav" id="nav">
+            <li>
+                <a href="../Portada.html">Inicio</a>
+            </li>
+            <li>
+                <a href="PS5.html">PlayStation 5</a>
+                <ul class="extraX-P">
+                    <li>
+                        <a href="PS5.html">Resumen PS 5</a>
+                    </li>
+                    <li>
+                        <a href="https://www.playstation.com/es-es/">Web Oficiál Playstation</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Xbox.html">Xbox Series X</a>
+                <ul class="extraX-P">
+                    <li>
+                        <a href="Xbox.html">Resumen Xbox Series X</a>
+                    </li>
+                    <li>
+                        <a href="https://www.xbox.com/es-ES">Web Oficiál Xbox</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="nintendo.html">Nintendo</a>
+                <ul class="extraN">
+                    <li>
+                        <a href="nintendo.html">Resumen Nintendo</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nintendo.es/">Web Oficiál Nintendo</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="multimedia.html">Multimedia</a>
+                <ul class="extraM">
+                    <li>
+                        <a href="imagenes.html">Imagenes</a>
+                    </li>
+                    <li>
+                        <a href="videos.html">Videos</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Contacta con Todoconsolas</h1>
+        <footer class="Contacto">
+            <form class="Contactoform" id="formulario">
+                <br>
+                <h4>Contacto</h4>
+                <!--Nombre-->
+                <label>Nombre:<span style="color: red;background-color: steelblue;">*</span></label>
+                <br>
+                <input type="text" size="20" maxlength="30" required name="nombre"> <span id="errNombre"></span>
+                <br>
+                <!--e-mail-->
+                <label>E-mail:<span style="color: red;background-color: steelblue;">*</span></label>
+                <br>
+                <input type="email" name="email" required> <span id="errEmail"></span>
+                <!--select-->
+                <br>
+                <label>¿Cual es tu videojuego preferido?<span style="color: red;background-color: steelblue;">*</span></label>
+                <br>
+                <select name="opciones" required multiple>
+                        <option value="">-Videojuego preferido</option>
+                        <option value="Playstation 5">Playstation 5</option>
+                        <option value="Xbox Series X">Xbox Series X</option>
+                        <option value="Nintendo Switch">Nintendo Switch</option>
+                        <option value="Ps Vita">Ps Vita</option>
+                        <option value="Psp">Psp</option>
+                        <option value="Xbox Series S">Xbox Series S</option>
+                        <option value="Nintendo DS">Nintendo DS</option>
+                </select>
+                <span id="errOpciones"></span>
+                <br>
+                <!--radioButton-->
+                <label>¿Deseas recibir publicidad?<span style="color: red;background-color: steelblue;">*</span></label>
+                <br>
+                <label>Si</label>
+                <input type="radio" name="siNo" value="Sí">
+                <label>No</label>
+                <input type="radio" name="siNo" value="No">
+                <span id="errPubli"></span>
+                <!--textarea-->
+                <br>
+                <label>Mensaje:</label><br>
+                <textarea id="Mensaje" name="mensaje" rows="5" cols="20" required placeholder="Escribe tu comentario aqui..."></textarea><span id="errTextArea"></span>
+                <!--enviar-->
+                <br>
+                <input type="checkbox" name="aceptar"><span style="color: red;background-color: steelblue;">*</span>Acepto las condiciones de uso<span id="errAcepta"></span>
+                <br>
+                <input type="button" value="Enviar" id="botonEnviar">
+                <input type="reset" value="Reset" onclick="location.reload();">
+                <input type="button" value="VerPersonas" onclick="location.href ='verPersonas.html'">
+                <div id="estado" style="color: red; background-color: black;">
+
+                </div>
+
+                <br>
+            </form>
+            <br>
+        </footer>
+        <p class="firma">Copyrigth &copy; Muhammad Hicho Abdeselam 2020-2021</p>
+    </section>
+</body>
+
+</html>

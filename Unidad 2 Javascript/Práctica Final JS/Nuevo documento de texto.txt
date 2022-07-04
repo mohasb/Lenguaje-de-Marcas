@@ -1,0 +1,26 @@
+Contenido: 10 (10%)--> 1
+
+Diseño responsive: 8.5 (35%)--> 2.975 (El responsive presenta un error importante en resoluciones pequeñas, ya que no permite acceder a los submenús.)
+
+Estilo código: 10 (5%) --> 0.5
+
+Ítems: 10/11 =  9.09 (50%) --> 4.54 
+
+Total:9.02
+FormularioComprobación de los campos obligatorios.	X
+Comprobación del tipo de información.	X
+Comprobación del tamaño máximo del contenido.	X
+ Expresiones regulares en algunos campos.	 X
+ Crear estilos que indiquen el estado del campo (válido, no válido, etc)	 
+
+ElementosMenú desplegable sobre al menos 1 elemento de la barra de navegación del
+proyecto. Crear nuevas páginas de contenido o separar contenido actual en varias
+páginas	X
+Banner con imágenes y texto relacionados con el proyecto.	X
+
+
+Creación de objetosCreación y almacenamiento de objetos en archivos JSON	x
+Eliminación de objetos (con confirmación).	X
+Modificación de objetos (con validación).	X
+Permitir la creación de nuevos objetos a través de un formulario (con validación) que
+se añadirán al array y se mostrarán por pantalla

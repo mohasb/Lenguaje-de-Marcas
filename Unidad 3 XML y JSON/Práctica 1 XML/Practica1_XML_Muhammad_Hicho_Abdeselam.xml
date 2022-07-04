@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taller nombre="FgAutomocion" >
+    <vehiculo tipo="coche">
+            <coche numero="1">
+                <marca>volkswagen</marca>
+                <modelo>Golf</modelo>
+                <version>MK6</version>
+                <anyo>2009</anyo>
+                <color>Negro</color>
+                <cilindrada>2000cc</cilindrada>
+                <potencia unidad="CV">250</potencia>
+                <potencia unidad="KW">95</potencia>
+                <matricula/>
+                </coche>
+            <coche numero="2">
+                <marca>Audi</marca>
+                <modelo>A3</modelo>
+                <version>8V</version>
+                <anyo>2012</anyo>
+                <color>Blanco</color>
+                <cilindrada>1600cc</cilindrada>
+                <potencia unidad="CV">200</potencia>
+                <potencia unidad="KW">80</potencia>
+                <matricula/>
+                </coche>
+    </vehiculo>
+    <vehiculo tipo="moto">
+        <moto numero="1">
+            <marca>Yamaha</marca>
+            <modelo>Tmax</modelo>
+            <anyo>2017</anyo>
+            <color>Gris</color>
+            <cilindrada>560cc</cilindrada>
+            <potencia unidad="CV">30</potencia>
+            <potencia unidad="KW">10</potencia>
+            <matricula/>
+            </moto>
+        <moto numero="2">
+            <marca>Yamaha</marca>
+            <modelo>Xmax</modelo>
+            <anyo>2017</anyo>
+            <color>Gris</color>
+            <cilindrada>125cc</cilindrada>
+                <potencia unidad="CV">9</potencia>
+                <potencia unidad="KW">7</potencia>
+            <matricula/>
+            </moto>
+    </vehiculo>
+
+</taller>

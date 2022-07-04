@@ -1,0 +1,1 @@
+-1.5: El método debería calcular solo una lista de la compra, no las dos a la vez

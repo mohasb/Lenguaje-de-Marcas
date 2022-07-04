@@ -1,0 +1,7 @@
+-3: La idea era generalizar los diversos accesos, aunque os pusierais un ejemplo para comprobar su correcto funcionamiento.
+
+Pj:
+
+...a todas las
+imágenes del --> document.getElementsByTagName("section")[0].getElementsByTagName("img");
+section

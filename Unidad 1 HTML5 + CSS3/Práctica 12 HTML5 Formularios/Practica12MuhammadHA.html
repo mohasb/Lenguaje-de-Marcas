@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Practica 12</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <form id="contactform" method="post" action=”http://www.formular-chef.de/fc.cgi”>
+
+        <section>
+            <header>
+                <h1>Formulario</h1>
+            </header>
+
+            <article>
+
+                <!--Nombre-->
+                <label>Nombre:</label>
+                <input type="text" size="20" maxlength="30">
+
+
+                <!--Tipo pc-->
+                <br>
+                <label>¿Que tipo de ordenador tienes?</label> <br>
+                <input type="checkbox" name="suggest"><label>Sobremesa</label> <br>
+                <input type="checkbox" name="suggest"><label>Portatil</label>
+
+
+                <article class="desplegable">
+                    <label>¿Estudias en casa?</label>
+                    <select>
+						    <option selected="selected">Siempre, a diario</option>
+						    <option>Bastantes veces</option>
+						    <option>Algunos dias</option>
+						    <option>Ni aunque me paguen</option>
+					    </select>
+                </article>
+
+                <article class="password">
+                    <label>Elige un nuevo password:</label>
+                    <input type="password" id="password" size="10">
+                </article>
+
+                <article class="foto">
+                    <label> Añade una foto</label>
+                    <input type="file" size="100" accept="image/*">
+                </article>
+
+                <article class="publicidad">
+                    <label>¿Quieres recibir publicidad?</label>
+                    <input type="radio"><label>No</label>
+                    <input type="radio" checked> <label>Yes</label>
+                </article>
+
+                <article class="textarea">
+                    <label>Añade lo que creas conveniente:</label> <br>
+                    <textarea id="bio" name="bio" rows="5" cols="20"></textarea>
+                </article>
+
+                <article class="botones">
+                    <input type="reset" value="Vaciar el formulario">
+                    <input type="submit" formmethod="post" value="ENVIAR">
+                    <p>(No olvides la <label for="password">contraseña)</label></p>
+                </article>
+
+            </article>
+
+        </section>
+
+    </form>
+</body>
+
+</html>

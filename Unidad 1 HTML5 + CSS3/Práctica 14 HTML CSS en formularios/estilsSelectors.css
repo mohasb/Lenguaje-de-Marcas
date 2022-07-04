@@ -1,0 +1,205 @@
+body {
+  text-align: center;
+}
+#principal {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #999999;
+  background: #DDDDDD;
+}
+#textos {
+  display: block;
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  text-align: justify;
+  border: 1px solid #999999;
+  background: #DDDDDD;
+}
+#titol {
+  font: bold 36px verdana, sans-serif;
+}
+ul li{
+	list-style-type:none;
+	background-color:#F5DA81;
+	margin:20px;
+	margin-left:auto;
+	margin-right:auto;
+	border:solid 1px #000;	
+	padding:10px;
+	font-family:arial;
+	text-align:center;
+	width:60%;
+}
+/*****************************/
+/*      pseudo-classes       */
+/*****************************/
+/*
+:enabled {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #080;
+}*/
+/*
+:disabled {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #800;
+}*/
+
+
+:default {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #0F0;
+}
+
+/*
+:valid {
+  padding: 5px;
+  border: 1px solid #0F0;
+  background: #0F0;
+}
+
+
+:invalid {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #F00;
+}
+*/
+/*
+:in-range {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #050;
+}
+
+
+:out-of-range {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #F00;
+}
+*/
+/*
+:required {
+  padding: 5px;
+  border: 1px solid #ff0000;
+  background: #F00;
+}
+
+:optional {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #0F0;
+}
+*/
+/*input[readonly] {*/
+/*-moz-*/
+/*:read-only{
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #F00;
+*/
+/*input:not([readonly]){*/
+/*-moz-*/
+/*:read-write {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #0F0;
+}*/
+
+/******************************/
+/*pseudo-classes estructurals */
+/******************************/
+/*
+:root{
+  background: #CCC;
+}*/
+/*
+p:nth-of-type(2){
+  background: #FF0;
+}
+*/
+/*
+p:nth-last-of-type(1){
+  background: #FF0;
+}
+*/
+/*
+p:empty{
+  background: #FF0;
+  height:10px;
+}
+*/
+
+/*************************************************/
+/*       Pseudo-elements i contingut generat     */
+/*************************************************/
+
+/*
+::first-letter{
+	font-size:30px;
+	padding:5px;
+	color:red;
+	background-color:white;
+	border: 1px solid #999999;
+}
+*/
+/*
+::first-line{
+	font-size:30px;
+	padding:5px;
+	color:green;
+	background-color:white;
+	border: 1px solid #999999;
+}
+*/
+/*
+p::after {
+  content: "hola";
+}
+*/
+/*
+p:after {
+  content: "hola";
+}
+*/
+/*
+label.lab:after { 
+  content: '*';
+  color: red; 
+  font-size: 2em;
+}
+*/
+/*
+::after {
+  content: "hola";
+}
+*/
+/*
+p::before {
+  content: "hola";
+}
+*/
+/*
+p:before {
+  content: "hola";
+}
+*/
+/*
+::before {
+  content: "hola";
+}
+*/
+
+/*
+::selection{
+  background:#F00;
+  color:#fff;
+}
+*/

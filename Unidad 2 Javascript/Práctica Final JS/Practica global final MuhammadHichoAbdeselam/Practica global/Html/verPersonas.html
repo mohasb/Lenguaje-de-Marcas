@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../JavaScript/validacion.js" defer></script>
+    <script src="../JavaScript/index.js" defer></script>
+    <script src="../JavaScript/environment.js" defer></script>
+    <script src="../JavaScript/nav.js" defer></script>
+    <title>Tecnoconsolas/Personas</title>
+</head>
+
+<body onload="leerColeccion()">
+    <header>
+        <h1>
+            Ver Personas
+        </h1>
+        <a title="icono_todoconsolas" href="../Portada.html"><img class="icono_todoconsolas" src="../Imagenes/icono_header.jpg" alt="icono_todoconsolas"></a>
+        <a title="icono_todoconsolas2" href="../Portada.html"><img class="icono_todoconsolas2" src="../Imagenes/icono_header.jpg" alt="icono_todoconsolas"></a>
+    </header>
+
+    <nav id="navegador">
+        <a href="#" id="botonNav">
+            <span class="barra" id="barra1"></span>
+            <span class="barra" id="barra2"></span>
+            <span class="barra" id="barra3"></span>
+        </a>
+        <ul class="nav" id="nav">
+            <li>
+                <a href="../Portada.html">Inicio</a>
+            </li>
+            <li>
+                <a href="PS5.html">PlayStation 5</a>
+                <ul class="extraX-P">
+                    <li>
+                        <a href="PS5.html">Resumen PS 5</a>
+                    </li>
+                    <li>
+                        <a href="https://www.playstation.com/es-es/">Web Oficiál Playstation</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Xbox.html">Xbox Series X</a>
+                <ul class="extraX-P">
+                    <li>
+                        <a href="Xbox.html">Resumen Xbox Series X</a>
+                    </li>
+                    <li>
+                        <a href="https://www.xbox.com/es-ES">Web Oficiál Xbox</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="nintendo.html">Nintendo</a>
+                <ul class="extraN">
+                    <li>
+                        <a href="nintendo.html">Resumen Nintendo</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nintendo.es/">Web Oficiál Nintendo</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="multimedia.html">Multimedia</a>
+                <ul class="extraM">
+                    <li>
+                        <a href="imagenes.html">Imagenes</a>
+                    </li>
+                    <li>
+                        <a href="videos.html">Videos</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <input type="button" class="boton_1" value="Crear Persona" onclick="location.href ='contacto.html'">
+
+        <div id="personas">
+
+        </div>
+    </section>
+</body>
+
+</html>
